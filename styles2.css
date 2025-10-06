@@ -1,0 +1,74 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: blue;
+  padding: 40px 0px;
+}
+
+header,
+nav {
+  display: flex;
+  gap: 40px;
+  color:white
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+header nav a:hover {
+  background-color: rgb(3, 109, 39);
+  border-radius: 10px;
+}
+* {
+  margin: 0;
+}
+
+.eature-list li::before {
+  content: "✓";
+  margin-right: 10px;
+  color: brown;
+}
+
+.eature-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 40px 0px;
+  gap: 40px;
+}
+
+.card {
+  width: 600px;
+  background-color: aqua;
+  padding: 30px 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.highlight-box {
+  border-left: 3px solid cornflowerblue;
+  font-style: italic;
+  padding: 20px;
+  background-color: rgba(51, 0, 255, 0.447);
+}
+
+.demo-button {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  color: white;
+  border: 0px;
+}
