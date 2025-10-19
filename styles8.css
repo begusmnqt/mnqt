@@ -1,0 +1,38 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.title {
+    height: 200px;
+    width: 200px;
+    padding-top: 20px;
+}
+
+.resize {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    height: 50px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 600px) {
+    .resize2 {
+        font-size: 20px;
+        background-color: red;
+        padding: 10px 5px 10px 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        color: white
+    }
+}
+

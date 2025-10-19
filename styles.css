@@ -1,0 +1,70 @@
+nav {
+  background-color: aqua;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  gap: 14px;
+  border-bottom: 1px solid black;
+}
+
+.navbar-item {
+  border: 1px solid black;
+  padding: 3px;
+  background-color: white;
+}
+
+main {
+  padding: 50px 20px;
+}
+body {
+  margin: 0%;
+}
+
+.simple {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background-color: rgb(127, 127, 252);
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: white;
+}
+
+.home {
+  padding-top: 20px;
+  padding-left: 20px;
+  background-color: aquamarine;
+  border: 2px solid rgb(80, 228, 90);
+  margin-bottom: 20px;
+}
+
+.footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  background-color: rgb(86, 86, 140);
+  border: 2px solid black;
+}
+
+h4 {
+  color: white;
+}
+.baaraa {
+  background-color: royalblue;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+  border: 2px solid rgb(74, 49, 165);
+  margin-right: 200px;
+}
+.box1 {
+  border: 3px solid rgb(249, 188, 188);
+  padding: 15px 20px;
+  padding-right: 10px;
+}
